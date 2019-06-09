@@ -1,4 +1,4 @@
-grongor/knock
+cool91788/knock, fork form grongor/knock
 =============
 
 Simple utility for port knocking written in python3.
