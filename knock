@@ -30,7 +30,7 @@ class Knocker(object):
         self.default_udp = args.udp
         self.ports = args.ports
 
-        self.address_family, _, _, _, (self.ip_address, _) = socket.getaddrinfo(
+        self.address_family, _, _, _, (self.ip_address, *_) = socket.getaddrinfo(
                 host=args.host,
                 port=None,
                 flags=socket.AI_ADDRCONFIG
